@@ -1,73 +1,73 @@
-name,FY,AGE_CAT,GENDER,INC_RT
-Alberta,All,All,All,38.1
-Alberta,All,All,F,49.5
-Alberta,All,All,M,27
-Alberta,All,0 to 18,All,51.7
-Alberta,All,0 to 18,F,100
-Alberta,All,0 to 18,M,0
-Alberta,All,18 to 64,All,37.1
-Alberta,All,18 to 64,F,100
-Alberta,All,18 to 64,M,0
-Alberta,All,65 and over,All,19.7
-Alberta,All,65 and over,F,100
-Alberta,All,65 and over,M,0
-Alberta,2016,All,All,34.1
-Alberta,2016,All,F,16
-Alberta,2016,All,M,15
-Alberta,2016,0 to 18,All,25
-Alberta,2016,0 to 18,F,7
-Alberta,2016,0 to 18,M,36
-Alberta,2016,18 to 64,All,37
-Alberta,2016,18 to 64,F,24
-Alberta,2016,18 to 64,M,29
-Alberta,2016,65 and over,All,16
-Alberta,2016,65 and over,F,33
-Alberta,2016,65 and over,M,36
-Alberta,2017,All,All,35.9
-Alberta,2017,All,F,40
-Alberta,2017,All,M,40
-Alberta,2017,0 to 18,All,10
-Alberta,2017,0 to 18,F,48
-Alberta,2017,0 to 18,M,2
-Alberta,2017,18 to 64,All,41
-Alberta,2017,18 to 64,F,28
-Alberta,2017,18 to 64,M,19
-Alberta,2017,65 and over,All,26
-Alberta,2017,65 and over,F,46
-Alberta,2017,65 and over,M,33
-Alberta,2018,All,All,37
-Alberta,2018,All,F,40
-Alberta,2018,All,M,9
-Alberta,2018,0 to 18,All,2
-Alberta,2018,0 to 18,F,30
-Alberta,2018,0 to 18,M,39
-Alberta,2018,18 to 64,All,0
-Alberta,2018,18 to 64,F,27
-Alberta,2018,18 to 64,M,45
-Alberta,2018,65 and over,All,50
-Alberta,2018,65 and over,F,37
-Alberta,2018,65 and over,M,35
-Alberta,2019,All,All,39.4
-Alberta,2019,All,F,28
-Alberta,2019,All,M,10
-Alberta,2019,0 to 18,All,13
-Alberta,2019,0 to 18,F,47
-Alberta,2019,0 to 18,M,43
-Alberta,2019,18 to 64,All,10
-Alberta,2019,18 to 64,F,9
-Alberta,2019,18 to 64,M,23
-Alberta,2019,65 and over,All,29
-Alberta,2019,65 and over,F,23
-Alberta,2019,65 and over,M,35
-Alberta,2020,All,All,43.8
-Alberta,2020,All,F,47
-Alberta,2020,All,M,18
-Alberta,2020,0 to 18,All,17
-Alberta,2020,0 to 18,F,4
-Alberta,2020,0 to 18,M,1
-Alberta,2020,18 to 64,All,47
-Alberta,2020,18 to 64,F,23
-Alberta,2020,18 to 64,M,46
-Alberta,2020,65 and over,All,19
-Alberta,2020,65 and over,F,0
-Alberta,2020,65 and over,M,6
+INDEX,name,FY,AGE_CAT,GENDER,INC_RT
+1,Alberta,All,All,All,38.1
+2,Alberta,All,All,F,49.5
+3,Alberta,All,All,M,27
+4,Alberta,All,0 to 18,All,51.7
+5,Alberta,All,0 to 18,F,100
+6,Alberta,All,0 to 18,M,0
+7,Alberta,All,18 to 64,All,37.1
+8,Alberta,All,18 to 64,F,100
+9,Alberta,All,18 to 64,M,0
+10,Alberta,All,65 and over,All,19.7
+11,Alberta,All,65 and over,F,100
+12,Alberta,All,65 and over,M,0
+13,Alberta,2016,All,All,34.1
+14,Alberta,2016,All,F,16
+15,Alberta,2016,All,M,15
+16,Alberta,2016,0 to 18,All,25
+17,Alberta,2016,0 to 18,F,7
+18,Alberta,2016,0 to 18,M,36
+19,Alberta,2016,18 to 64,All,37
+20,Alberta,2016,18 to 64,F,24
+21,Alberta,2016,18 to 64,M,29
+22,Alberta,2016,65 and over,All,16
+23,Alberta,2016,65 and over,F,33
+24,Alberta,2016,65 and over,M,36
+25,Alberta,2017,All,All,35.9
+26,Alberta,2017,All,F,40
+27,Alberta,2017,All,M,40
+28,Alberta,2017,0 to 18,All,10
+29,Alberta,2017,0 to 18,F,48
+30,Alberta,2017,0 to 18,M,2
+31,Alberta,2017,18 to 64,All,41
+32,Alberta,2017,18 to 64,F,28
+33,Alberta,2017,18 to 64,M,19
+34,Alberta,2017,65 and over,All,26
+35,Alberta,2017,65 and over,F,46
+36,Alberta,2017,65 and over,M,33
+37,Alberta,2018,All,All,37
+38,Alberta,2018,All,F,40
+39,Alberta,2018,All,M,9
+40,Alberta,2018,0 to 18,All,2
+41,Alberta,2018,0 to 18,F,30
+42,Alberta,2018,0 to 18,M,39
+43,Alberta,2018,18 to 64,All,0
+44,Alberta,2018,18 to 64,F,27
+45,Alberta,2018,18 to 64,M,45
+46,Alberta,2018,65 and over,All,50
+47,Alberta,2018,65 and over,F,37
+48,Alberta,2018,65 and over,M,35
+49,Alberta,2019,All,All,39.4
+50,Alberta,2019,All,F,28
+51,Alberta,2019,All,M,10
+52,Alberta,2019,0 to 18,All,13
+53,Alberta,2019,0 to 18,F,47
+54,Alberta,2019,0 to 18,M,43
+55,Alberta,2019,18 to 64,All,10
+56,Alberta,2019,18 to 64,F,9
+57,Alberta,2019,18 to 64,M,23
+58,Alberta,2019,65 and over,All,29
+59,Alberta,2019,65 and over,F,23
+60,Alberta,2019,65 and over,M,35
+61,Alberta,2020,All,All,43.8
+62,Alberta,2020,All,F,47
+63,Alberta,2020,All,M,18
+64,Alberta,2020,0 to 18,All,17
+65,Alberta,2020,0 to 18,F,4
+66,Alberta,2020,0 to 18,M,1
+67,Alberta,2020,18 to 64,All,47
+68,Alberta,2020,18 to 64,F,23
+69,Alberta,2020,18 to 64,M,46
+70,Alberta,2020,65 and over,All,19
+71,Alberta,2020,65 and over,F,0
+72,Alberta,2020,65 and over,M,6
