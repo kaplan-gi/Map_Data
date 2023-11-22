@@ -1,4 +1,4 @@
-﻿year,disease,data_type,name,forecast,rate,lb,ub
+﻿year,disease_type,data_type,name,forecast,rate,lb,ub
 2000,IBD,Incidence,Newfoundland,0,40.90000153,35.40000153,46.40000153
 2001,IBD,Incidence,Newfoundland,0,37.59999847,32.29999924,42.79999924
 2002,IBD,Incidence,Newfoundland,0,29.20000076,24.60000038,33.90000153

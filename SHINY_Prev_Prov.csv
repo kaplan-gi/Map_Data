@@ -1,4 +1,4 @@
-﻿year,disease,data_type,name,forecast,rate,lb,ub
+﻿year,disease_type,data_type,name,forecast,rate,lb,ub
 1995,IBD,Prevalence,Newfoundland,0,177.1000061,166.1999969,188.1000061
 1996,IBD,Prevalence,Newfoundland,0,244.5,231.6000061,257.5
 1997,IBD,Prevalence,Newfoundland,0,303.7000122,289.1000061,318.2999878
