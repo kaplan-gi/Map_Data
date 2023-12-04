@@ -1,0 +1,41 @@
+﻿COLUMN NAME,NOTES,CALCULATIONS
+study_id,Unique number for each study included in the review,
+author,Last name of first author,
+year_study,Year of publication,
+title,Title of publication,
+URL,Address for open access pdf or abstract,
+country,Country of observation,
+region,"Specific region of observation, county-level observations are indicated by ""National"" or ""Nationwide"" or ""Territory-wide""",
+database_cohort,The name of the administrative database or cohort that the data was collected from,
+population_excert,The sentence from the paper that describes the cohort,
+quality,"Based on results from a modified JBI quality assessment. Levels:
+Strictly Population-based = 
+Population-based = 
+Representative = 
+Abstract = ",
+age,Age category as reported in paper,
+data_type,Incidence or Prevalence,
+data_standard,Standardization of data; Crude or Standardized,
+data_source,Where the values can be found in the PDF,
+year_data,"Year of observation, mean year for a period rounded up to the nearest year","=AVERAGE(period_start, period_end)"
+years_num,Consecutive years included in datapoint; 1 for an annual rate or >1 for an aggregate rate,=(period_end - period_start) + 1
+population_summed,"Denominator of rate. Essentially person years, for an annual rate it is the population of the region in that year, for aggregate incidence rates it is the summed population across all years or the average/midyear population multiplied by the number of years in the period (whatever was available), for period prevalence it is the mid-period population.
+Every publication had a different way of determinating its population denominator  depending on healthcare coverage, available census data, rounding, averaging etc. If the paper stated that the population was ""stable"" the same value could be applied to the entire time period, however the definition of stable differed between publications",
+CD_cases,Numerator of rate. Number of individuals with Crohn's disease (both sexes),
+UC_cases,Numerator of rate. Number of individuals with ulcerative colitis  (both sexes). *Some publications include IBDu in their reported UC values.,
+IBDu_cases,Numerator of rate. Number of individuals with IBD unclassified,
+CD_rate_provided,"Rate of Crohn's disease per 100,000 persons as extracted from the paper",
+CD_rate_calculated,"Rate of Crohn's disease per 100,000 persons as calculated by dividing the number of cases by the population","=IF(OR(CD_cases="""", population_summed=""""), """", (CD_cases/population_summed*100000))"
+CD_rate,"Crude calculated rate of Crohn's disease  if available, otherwise provided rate that may or may not have either standardized or extracted from a figure","=IF(AND(CD_rate_calculated="""", CD_rate_provided=""""), """", IF(CD_rate_calculated="""", CD_rate_provided, CD_rate_calculated))"
+UC_IBDu_rate_provided,"Rate of ulcerative colitis and unclassified IBD per 100,000 persons as extracted from the paper","=IF(AND(UC_rate_provided="""", IBDu_rate_provided = """"), """", (UC_rate_provided + IBDu_rate_provided))"
+UC_IBDu_rate_calculated,"Rate of ulcerative colitis and unclassified IBD per 100,000 persons as calculated by dividing the number of cases by the population","=IF(OR(UC_IBDu_cases = """", population_summed=""""), """", (UC_IBDu_cases/population_summed*100000))"
+UC_IBDu_rate,"Crude calculated rate of ulcerative colitis if available, otherwise provided rate that may or may not have either standardized or extracted from a figure","=IF(AND(UC_rate_calculated="""", UC_rate_provided=""""), """", IF(UC_rate_calculated="""", UC_rate_provided, UC_rate_calculated))"
+male_CD_cases,Sex-specific numerator. Number of males with Crohn's disease.,
+female_CD_cases,Sex-specific numerator. Number of females with Crohn's disease.,
+male_UC_cases,Sex-specific numerator. Number of males with ulcerative colitis.,
+female_UC_cases,Sex-specific numerator. Number of females with ulcerative colits.,
+male_CD_rate,"Rate of Crohn's disease per 100,000 males as extracted from the paper",
+female_CD_rate,"Rate of Crohn's disease per 100,000 females as extracted from the paper",
+male_UC_rate,"Rate of ulcerative colitis per 100,000 males as extracted from the paper",
+female_UC_rate,"Rate of ulcerative colitis per 100,000 females as extracted from the paper",
+notes,,
